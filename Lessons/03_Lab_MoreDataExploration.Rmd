@@ -64,6 +64,7 @@ matrix4
 # Lists ---- 
 list1 <- list(name = "Maria", mynumbers = vector1, mymatrix = matrix1, age = 5.3); list1
 list1[[2]]
+list1[2]
 
 # Data Frames ----
 d <- c(1, 2, 3, 4) # What type of vector?
@@ -94,11 +95,22 @@ Find a ten-day forecast of temperatures (Fahrenheit) for Durham, North Carolina.
 
 ```{r}
 
+highs.f = c(49,42,43,40,26,46)
+lows.f = c(30,24,30,15,17,25)
+
 ```
 
 Now, create two additional vectors that include the ten-day forecast for the high and low temperatures in Celsius. Use a function to create the two new vectors from your existing ones in Fahrenheit.
 
 ```{r}
+
+c.to.f <- function(temps){round((temps-32) * 5/9, 2)}
+
+highs.c = c.to.f(highs.f)
+lows.c = c.to.f(lows.f)
+
+highs.c
+lows.c
 
 ```
 
@@ -106,11 +118,17 @@ Combine your four vectors into a data frame and add informative column names.
 
 ```{r}
 
+temps.df <- data.frame("Highs F" = highs.f,"Lows F" = lows.f,"Highs C" = highs.c, "Lows C" = lows.c)
+temps.df
+
 ```
 
 Use the common functions `summary` and `sd` to obtain basic data summaries of the ten-day forecast. How would you call these functions differently for the entire data frame vs. a single column? Attempt to demonstrate both options below.
 
 ```{r}
+
+summary(temps.df)
+sd(temps.df$Highs.F)
 
 ```
 
@@ -148,7 +166,7 @@ Install and load the package lubridate into your R session. Lubridate offers fas
 More info on lubridate [here][https://cran.r-project.org/web/packages/lubridate/lubridate.pdf].
 
 ```{r DateExercise1}
-#install.packages("lubridate")
+install.packages("lubridate")
 library(lubridate)
 
 #Ex1

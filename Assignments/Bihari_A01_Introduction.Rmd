@@ -1,0 +1,42 @@
+---
+title: "Assignment 1: Introduction"
+author: "Enikoe Bihari"
+output: pdf_document
+geometry: margin=2.54cm
+---
+
+## OVERVIEW
+
+This exercise accompanies the introductory material in Environmental Data Analytics. 
+
+## Directions
+1. Change "Student Name" on line 3 (above) with your name.
+3. Work through the steps, **creating code and output** that fulfill each instruction.
+4. Be sure to **answer the questions** in this assignment document.
+6. When you have completed the assignment, **Knit** the text and code into a single PDF file.
+8. After Knitting, submit the completed exercise (PDF file) to the dropbox in Sakai. Add your last name into the file name (e.g., "Lima_A01_Introduction.Rmd") prior to submission.
+
+The completed exercise is due on <>.
+
+## 1) Discussion Questions
+
+1. What are your previous experiences with data analytics, R, and Git? Include both formal and informal training.
+
+> Answer: My first introduction to programming and Git was through an internship where we learned very high-level Linux HPC system administration stuff - it was confusing and overwhelming but it also got me hooked on the elegance and efficiency of coding.  Since then, I taught myself Python and learned R through structured stats coursework.  I took stats (R) and advanced GIS (Python) here at Duke, and I have used programming (both Python and R) in previous jobs and current projects to write data analysis scripts (in environmental remediation and forest ecology contexts).
+
+2. Are there any components of the course about which you feel confident?
+
+> Answer: I am pretty confident in my programming experience and my ability to sift through documentation and online forums to find what I need.  I feel like much of this class will review what I already know and help me take a deeper dive into the nuances of writing good code and doing good data analysis.
+
+3. Are there any components of the course about which you feel apprehensive?
+
+> Answer: I have never had a good relationship with Git - I have always found the architecture and interface confusing and annoying.  I know it is a really useful tool though, and I want to learn how to use it more seamlessly to track and share my code.
+
+
+## 2) GitHub
+
+Provide a link below to your forked course repository in GitHub. Make sure you have pulled all recent changes from the course repository and that you have updated your course README file. 
+
+> Answer: https://github.com/enikoebihari/Environmental_Data_Analytics_2022
+
+
