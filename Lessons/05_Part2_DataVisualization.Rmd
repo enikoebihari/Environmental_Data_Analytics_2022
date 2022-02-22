@@ -73,6 +73,7 @@ If you would like to set a common theme across all plots in your analysis sessio
 mytheme <- theme_classic(base_size = 14) +
   theme(axis.text = element_text(color = "black"), 
         legend.position = "top") #alternative: legend.position + legend.justification
+cowplot
 
 # options: call the theme in each plot or set the theme at the start. 
 
